@@ -122,6 +122,11 @@
 					92E2F38E1B9C5C5A00AAC39A = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = AAA873G97B;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -280,11 +285,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wesley Matlock (U2R29X7BG5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wesley Matlock (U2R29X7BG5)";
 				INFOPLIST_FILE = Breaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Breaker;
+				PRODUCT_BUNDLE_IDENTIFIER = net.insoc.BreakOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6117cca9-0bdd-4f23-ada2-5174d56bec19";
 			};
@@ -294,11 +299,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Clique Media, Inc (HJK38JBXWM)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Clique Media, Inc (HJK38JBXWM)";
 				INFOPLIST_FILE = Breaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Breaker;
+				PRODUCT_BUNDLE_IDENTIFIER = net.insoc.BreakOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "25a8f576-22e3-461f-96ff-5a3a3dbf063b";
 			};
